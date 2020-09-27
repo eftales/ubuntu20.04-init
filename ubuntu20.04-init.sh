@@ -30,3 +30,6 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 sudo update
 sudo apt install code -y
 echo "记得安装 vs code 中文插件和 github theme"
+
+# v2ray
+echo "ref: https://www.jianshu.com/p/04edc67ede78"
