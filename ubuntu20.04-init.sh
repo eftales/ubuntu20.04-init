@@ -5,7 +5,12 @@ python3.8
 
 `
 
+# 更换 apt 源
+echo `
+打开 设置->关于->software updates->下载自
 
+选择 mirros.aliyun.com/ubuntu
+`
 
 # 安装中文输入法
 echo "安装中文输入法首先需要在安装系统的时候选择中文版安装，否则就需要手动装中文语言包"
