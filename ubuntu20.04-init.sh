@@ -33,3 +33,8 @@ echo "记得安装 vs code 中文插件和 github theme"
 
 # v2ray
 echo "ref: https://www.jianshu.com/p/04edc67ede78"
+
+# chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
