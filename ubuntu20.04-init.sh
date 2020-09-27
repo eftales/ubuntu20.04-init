@@ -6,6 +6,7 @@ python3.8
 `
 
 
+
 # 安装中文输入法
 echo "安装中文输入法首先需要在安装系统的时候选择中文版安装，否则就需要手动装中文语言包"
 
@@ -13,6 +14,9 @@ echo `
 安装中文输入法请参考：
 https://blog.csdn.net/WU9797/article/details/105743699/
 `
+
+# 安装pip
+sudo apt install python3-pip
 
 # git
 sudo apt install git -y
