@@ -9,3 +9,7 @@ https://blog.csdn.net/WU9797/article/details/105743699/
 # git
 sudo apt install git -y
 
+
+# 安装 nv 驱动
+echo "参考：https://blog.csdn.net/z_6_2_0_s/article/details/106201929"
+
