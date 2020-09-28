@@ -58,5 +58,6 @@ gnome-session-properties # 打开 startup applications
 
 # word pdf
 
-# 
-
+# teamviewer
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+sudo apt install ./teamviewer_amd64.deb
