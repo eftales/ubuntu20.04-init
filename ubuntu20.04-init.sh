@@ -52,10 +52,11 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ## ref https://itsfoss.com/rclone-browser/
 sudo apt install rclone
 rclone config
-mkdir ~/OneDrive
-sh -c "rclone --vfs-cache-mode writes mount oneDrive: ~/OneDrive"
+mkdir ~/onedrive
+mkdir ~/onedriveCache
+sh -c "rclone --vfs-cache-mode full --cache-dir ~/onedriveCache mount oneDrive: ~/onedrive" # 一定要加上缓存文件夹！！要不然每次都从头下载太难顶了
 gnome-session-properties # 打开 startup applications
-
+fusermount -qzu onedrive # 卸载 rclone
 # word pdf
 
 # teamviewer
