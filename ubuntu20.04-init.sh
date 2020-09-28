@@ -47,3 +47,16 @@ echo "ref: https://www.jianshu.com/p/04edc67ede78"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 
+# onedrive Rclone
+## ref https://itsfoss.com/use-onedrive-linux-rclone/
+## ref https://itsfoss.com/rclone-browser/
+sudo apt install rclone
+rclone config
+mkdir ~/OneDrive
+sh -c "rclone --vfs-cache-mode writes mount oneDrive: ~/OneDrive"
+gnome-session-properties # 打开 startup applications
+
+# word pdf
+
+# 
+
