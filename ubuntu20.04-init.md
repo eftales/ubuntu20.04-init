@@ -81,4 +81,6 @@ tar -zxvf SoundWireServer.tar.gz
 sudo cp SoundWireServer/SoundWireServer /usr/bin/soundwire
 sudo rm -rf SoundWireServer SoundWireServer.tar.gz
 
+# 更改时间格式，避免双系统的时间发生冲突 
+timedatectl set-local-rtc 1 --adjust-system-clock
 
