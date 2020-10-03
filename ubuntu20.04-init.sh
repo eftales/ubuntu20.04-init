@@ -46,6 +46,8 @@ echo "ref: https://www.jianshu.com/p/04edc67ede78"
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
+echo `按 super 键搜索 key，将 login 的密码换成空白就行`
+
 
 # onedrive Rclone
 ## ref https://itsfoss.com/use-onedrive-linux-rclone/
