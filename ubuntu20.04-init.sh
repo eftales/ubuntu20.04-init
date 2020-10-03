@@ -64,3 +64,11 @@ fusermount -qzu onedrive # 卸载 rclone
 # teamviewer
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 sudo apt install ./teamviewer_amd64.deb
+
+# SoundWire
+wget http://georgielabs.altervista.org/SoundWire_Server_linux64.tar.gz -O SoundWireServer.tar.gz
+tar -zxvf SoundWireServer.tar.gz
+sudo cp SoundWireServer/SoundWireServer /usr/bin/soundwire
+sudo rm -rf SoundWireServer SoundWireServer.tar.gz
+
+
