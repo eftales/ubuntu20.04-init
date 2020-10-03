@@ -5,6 +5,16 @@ python3.8
 
 `
 
+# 安装无线网卡驱动
+echo `
+我买了一个无线网卡 TL-WDN5200
+只在windows下免驱，但是万能的社区给了linux下的驱动
+参考这个仓库就好
+https://github.com/brektrou/rtl8821CU
+只需要下载这个仓库，拷贝到linux上，make & sudo make install 就可以上网啦
+`
+
+
 # 更换 apt 源
 echo `
 打开 设置->关于->software updates->下载自
